@@ -13,24 +13,29 @@ body {
     text-align: center;
   }
   .question {
-    font-size: 5vw;
+    font-size: 15vw;
     margin-top: -5vw;
     margin-bottom: 0vw;
   }
   .question1 {
-    font-size: 5vw;
-    margin-top: -5vw;
+    font-size: 10vw;
+    margin-top: -10vw;
     margin-bottom: 0vw;
   }
+  .question2 {
+    font-size: 13vw;
+    margin-top: -15vw;
+    margin-bottom: -10vw;
+  }
   .pf {
-    font-size: 5vw;
+    font-size: 12vw;
     margin-top: -5vw;
-    margin-bottom: -3vw;
+    margin-bottom: -2vw;
   }
   .limotext {
-    font-size: 2vw;
+    font-size: 7vw;
     margin-top: 0vw;
-    margin-bottom: -1vw;
+    margin-bottom: 0vw;
   }
   .answers {
     display: flex;
@@ -40,31 +45,32 @@ body {
     margin-bottom: 1vw;
   }
   .answer-btn {
-    padding: 2vw 1vw;
+    padding: 3vw 1vw;
     margin: 2vw;
     background-color: #fff;
     color: #ee97e5;
-    font-size: 2vw;
+    font-size: 10vw;
     text-decoration: none;
     border: none;
     cursor: pointer;
-    border-radius: 2vw;
+    border-radius: 5vw;
     width: 40%;
-    max-width: 20vw;
+    max-width: 40vw;
+    margin-bottom: 10vw;
   }
   .answer-btn:hover {
     opacity: 90%;
     background-color: #f4f4f4;
   }
   .limo-img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
     border-radius: 1vw;
   }
   .jamnik-img {
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
     display: block;
     margin: auto;
@@ -98,16 +104,15 @@ body {
 {
     margin-top: -5vw;
     display:grid; 
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: -15vw;
 }
 
 .pictures
 {
-    float: left;
-    height: 20vw;
-    width: 20vw;
+    height: 40vw;
+    width: 40vw;
     margin-top: 10%;
-    margin-left: 10%;
-    border-radius: 0.5vw;
+    border-radius: 1vw;
 }
   
